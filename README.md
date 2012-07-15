@@ -15,7 +15,7 @@ jam install paper-boy
 // It doesn't have to be used with require
 define(function(require){
   var
-    PaperBoy = require('paperboy')
+    PaperBoy = require('paper-boy')
   , router   = new PaperBoy({
       // Paper Boy has enter and exit routes
       "": {

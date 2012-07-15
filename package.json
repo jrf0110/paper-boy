@@ -2,7 +2,7 @@
   "author": "John Fawcett <jrf0110@gmail.com> (http://johnfawcett.name)",
   "name": "paper-boy",
   "description": "Simple Routing system for the browser",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": ""
   },
