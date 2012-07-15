@@ -37,7 +37,7 @@ define(function(require){
           this.hello = "Hello World!!!";
         }
       , exit: function(){
-          console.log(this.hell); // "Hello World!!!"
+          console.log(this.hello); // "Hello World!!!"
         }
       }
     });
