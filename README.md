@@ -12,6 +12,7 @@ jam install paperboy
 
 ```javascript
 // Assuming RequireJS
+// It doesn't have to be used with require
 define(function(require){
   var
     PaperBoy = require('paperboy')
