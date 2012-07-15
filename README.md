@@ -7,7 +7,7 @@ It's ideal for projects where you don't need a huge library or cross-browser sup
 ##Install
 
 ```
-jam install paperboy
+jam install paper-boy
 ```
 
 ```javascript
