@@ -1,0 +1,23 @@
+<!-- Great tests I know -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="paper-boy.js"></script>
+    <script>
+      var router = new PaperBoy({
+        'some/:id': {
+          exit: function( id ){ console.log("EXITING", id)}
+        , enter: function( id ){ console.log("ENTERING", id)}
+        },
+        'some/:id/other/:thing': {
+          exit: function( id, thing ){ console.log("EXITING", id, thing)}
+        , enter: function( id, thing ){ console.log("ENTERING", id, thing)}
+        }
+      })
+      router.listen();
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>

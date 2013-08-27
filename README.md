@@ -31,6 +31,10 @@ define(function(require){
         // Access the instantiated router object via:
         this._router.navigate("weeeee"); // Redirect to weeeee
       }
+      // Standard variables
+    , "users/:userId/profiles/:profileType": function(userId, profileType){
+        console.log("User:", userId, "Profile:", profileType);
+      }
       // Paper Boy enter and exit routes share their 'this' objects
     , "weeeee": {
         enter: function(){
