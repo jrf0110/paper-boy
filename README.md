@@ -2,7 +2,7 @@
 
 This is a simple routing system for non-shitty browsers. That is browsers that support addEventListener and window.location.hash. It doesn't use fancy push-state yet, but it does use hash tags.
 
-It's ideal for projects where you don't need a huge library or cross-browser support. Paper Boy is 44 lines of code.
+It's not very good, but you can check it out. The defining feature is the ability to have ```enter``` and ```exit``` routes defined. You should probably use [https://github.com/millermedeiros/crossroads.js](https://github.com/millermedeiros/crossroads.js)
 
 ##Install
 
