@@ -73,10 +73,11 @@
             // Check each route tokens for a match
             var filteredTokens = [], url, args;
 
-            // Enter route
+            // Exit route
             for ( url in this.routeTokens ){
               args = [];
               if (
+                url in this.exit &&
                 this.routeTokens[ url ].filter( function( token, index ){
                   // Filter out variables
                   if ( token.type == 'variable' ) filteredTokens.push( index );
@@ -89,10 +90,11 @@
               ){ this.exit[url].apply(this.scopes[url], args); break; }
             }
 
-            // Exit route
+            // Enter route
             for ( url in this.routeTokens ){
               args = [];
               if (
+                url in this.enter &&
                 this.routeTokens[ url ].filter( function( token, index ){
                   // Filter out variables
                   if ( token.type == 'variable' ) filteredTokens.push( index );
