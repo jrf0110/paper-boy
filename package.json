@@ -7,9 +7,6 @@
     "url": ""
   },
   "main": "paper-boy.js",
-  "engines": {
-    "node": "~0.6.15"
-  },
   "dependencies": {},
   "devDependencies": {}
 }
